@@ -1,0 +1,71 @@
+body {
+  background: url("./IMG.png") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 70px;
+  border-radius: 15px;
+  width: 500px;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+li {
+  color: black;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+  margin: 5px 0;
+  background: rgba(0, 191, 255, 0.85);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#edit-btn {
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+#list-container {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 400px;
+}
+.clearAll {
+  background-color: rgb(165, 34, 11);
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  white-space: nowrap;
+}
