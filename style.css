@@ -28,14 +28,6 @@ input {
   border-radius: 5px;
 }
 
-li {
-  color: black;
-  margin: 8px 0;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 button {
   border-radius: 5px;
   width: 80px;
@@ -49,7 +41,6 @@ button {
 }
 #edit-btn {
   margin-right: 20px;
-  margin-left: 40px;
 }
 
 #list-container {
